@@ -14,8 +14,12 @@
   align-items: center;
 
   width: 50vw;
+
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--light-color);
 }
 
-.input{
-
+.main header h1{
+  line-height: 110px;
+  font-size: 52px;
 }
