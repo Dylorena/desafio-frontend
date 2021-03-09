@@ -1,0 +1,66 @@
+.CitySelected{
+    background-color: var(--light-color);
+    color: var(--gray-dark);
+
+    width: 75%;
+    height: 17rem;
+    margin-bottom: 2rem;
+
+    display: grid;
+    grid-template-rows: max-content;
+    justify-items: center;
+}
+
+.infoPrincipal{
+    width: 420px;
+    padding: 20px 0 0 6px;
+}
+
+.infoPrincipal header{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.infoPrincipal button{
+    color: var(--laranjao);
+    border: none;
+    outline: transparent;
+    background-color: transparent;
+    font-size: 1.3rem;
+}
+
+.infoPrincipal h1{
+    display: flex;
+    color: var(--gray-light);
+    margin: 15px 0;
+    font-size: 2.8rem;
+}
+
+.infoAdc{
+    width: 268px;
+    height: 70px;
+    /* width: 13rem;
+    height: 4rem; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    line-height: 1.2rem;
+}
+
+.infoAdc p {
+    display: inline;
+    font-size: 15px;
+}
+
+.infoAdc p img{
+    width: 15px;
+    height: 15px;
+}
+
+.infoSemanal{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 460px;
+    border-top: 1px solid var(--laranjao);
+}
