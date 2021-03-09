@@ -1,0 +1,19 @@
+.infoDay{
+    display: grid;
+    align-items: center;
+    font-weight: bold;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.infoDay strong{
+    font-size: 18px;
+}
+
+.infoDay span{
+    color: var(--laranjao);
+    display: flex;
+}
+
+.infoDay span > p{
+    margin-right: 5px;
+}
