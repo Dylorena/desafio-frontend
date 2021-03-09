@@ -1,0 +1,37 @@
+.divSearch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    height: 2rem;
+    border: 1px solid var(--laranjao);
+}
+
+.divSearch:focus-within{
+    border: 1px solid var(--laranjao);
+    box-shadow: 0 0 10px rgba(0, 0, 1, 0.603);
+}
+
+.input{
+    border: none;
+    background-color: var(--light-color);
+    color: var(--gray-light);
+    line-height: 2rem;
+    width: 100%;
+    padding-left: 0.5rem;
+}
+
+.input:focus{
+    outline: transparent;
+}
+
+.button{
+    line-height: 2rem;
+    border: none;
+    background-color: var(--light-color);
+}
+
+.button img{
+    height: 1rem;
+    padding-right: 0.5rem;
+}

@@ -1,0 +1,24 @@
+.capitais h2 {
+    font-size: 40px !important;
+    color: var(--light-color);
+}
+
+.capitais{
+    margin: 0 0 35px 38px;
+}
+.capitais tbody{
+    font-size: 15px;
+    font-weight: bold;
+    color: var(--gray-dark);
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.capInfo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+}
+
+.capInfo td{
+    padding: 17px 8px 0 0;
+}
